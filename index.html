@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Panda Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Press+Start+2P&family=Ruge+Boogie&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+         #card{
+        
+        height: 100vh;
+        width: 430px;
+        border: 2px solid;
+        background-color: white;
+        padding-right: 50px;
+        padding-left: 10px;
+       }
+        body{
+            align-items: center;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+        }
+       .panda{
+        width: 300px;         /* Width of the oval */
+            height: 200px;        /* Height of the oval */
+            border-radius: 50%;   /* Makes the shape oval */
+            overflow: hidden;     /* Hides overflow of the image */
+            display: flex;        /* To center the image */
+            align-items: center;  /* Center image vertically */
+            justify-content: center; /* Center image horizontally */
+            background-color: lightblue; /* Background color */
+            position: relative;   /* Position relative for image */
+       }
+       .panda img {
+            width: 100%;          /* Make the image fill the oval */
+            height: auto;         /* Keep aspect ratio */
+        }
+        .cs{
+            text-align: center;
+            font-size: larger;
+            font-family: "Roboto", sans-serif;
+            
+        }
+        h1{
+            font-family: "Press Start 2P", system-ui;
+            font-size: large;
+        }
+        .pcard{
+            box-shadow: 10px 10px 10px 10px grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+        <h2 style="font-family: Roboto; font-size: 30px; margin-top: 5px;" >Title</h1>
+        <h1>Panda Card</h1>
+        <div style= "height: 450px; padding-top: 30px; margin-top: 20px;" class="pcard">
+            <div class="panda" style="margin: auto;">
+                <img src="https://d3i6fh83elv35t.cloudfront.net/static/2024/07/Panda-1200x881.jpg" alt="Panda">
+            </div>
+            <h1 style="text-align: center; color: rgb(142, 171, 142);" >John Doe</h1>
+            <p class="cs">Computer Science 1</p>
+            <p class="cs">Computer Science 2</p>
+            <p class="cs">Year: 3</p>
+            <div style="text-align: center;">
+                <i class="fa fa-star-o" style="font-size:24px"></i>
+                <i class="fa fa-star-o" style="font-size:24px"></i>
+                <i class="fa fa-star-o" style="font-size:24px"></i>
+                <i class="fa fa-star-o" style="font-size:24px"></i>
+                <i class="fa fa-star-o" style="font-size:24px"></i>
+            </div>
+        </div>
+        
+        
+        
+
+       
+    </div>
+</body>
+</html>
